@@ -1,0 +1,94 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 100ch;
+  padding: 2ch;
+  margin: auto;
+  font-size: 1.2em;
+  background-color: #121212;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+.surveyMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.surveyView {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.questionList {
+  display: flex;
+  margin-left: 10px;
+}
+
+.adminpanel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.newsurvey {
+  display: flex;
+  width: 50vh;
+  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.newsurvey h3 {
+  margin: 0;
+}
+
+.activesurveys {
+  display: flex;
+  gap: 0.25rem;
+  flex-direction: column;
+}
+
+.survey {
+  border: 2px solid;
+}
+
+.surveyCheckbox {
+  display: flex;
+  align-items: center;
+}
+
+.surveyCheckbox p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.datepopup {
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.datepopup p {
+  margin: 0;
+}
+
+.userpanelbutton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
